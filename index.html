@@ -18,7 +18,7 @@
     <h1>Temperature Conversion from Celsius to Kelvin</h1>
 
     <p>Temperature in Celsius:
-      <input id="temp" type="number">
+      <input id="temp" type="number" >
     </p>
 
     <button id="clicker" class="btn btn-primary">Click me!</button>
@@ -42,7 +42,7 @@
     document.getElementById('clicker').addEventListener('click', function () {
       const i = parseInt(document.getElementById('temp').value)
       console.log('i=' + i)
-      const ans = s + ', your sum is ' + add(i) + '.'
+      const ans = 'Temperature in Kelvin is:' + add(i)
       document.getElementById('result').innerHTML = ans
     })
 
